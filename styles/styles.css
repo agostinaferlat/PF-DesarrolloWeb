@@ -1,6 +1,17 @@
 body {
     font-family: 'Nunito Sans', sans-serif;
 }
+
+body{
+    background-image: url("../img/v850-aum-02leaves.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    /* background-color: #F4F2F5; */
+    background-color: #F8F7F3;
+}
 /* Estilos para el header*/
 .bg-color-nav{
     background-color: #f3e4b6;
@@ -34,6 +45,10 @@ body {
     background-color: #E9E5EC;
     border: solid #A797B2;
 } */
+
+.image-size-t{
+    height: 450px;
+}
 
 /* Estilos para el footer */
 
