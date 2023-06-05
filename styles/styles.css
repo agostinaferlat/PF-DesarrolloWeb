@@ -14,7 +14,7 @@ body {
     width: 140px;
 }
 
-/* Estilos para el main - nuestro café */
+/* Estilos para el main*/
 .justified{
     text-align: justify;
 }
@@ -29,6 +29,11 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+/* .color-form{
+    background-color: #E9E5EC;
+    border: solid #A797B2;
+} */
 
 /* Estilos para el footer */
 

@@ -57,29 +57,29 @@
     </header>
     
     <main class="container">  <!--Contenido principal  -->       
-        <h3>Estás interesado en trabajar con nosotros? 
+        <h3 class="text-center fw-bold">Estás interesado en trabajar con nosotros? 
         Dejanos tus datos
         </h3>
 
-        
-        <form action="" method="get" enctype="application/x-www-form-urlencoded">
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre">    
-           
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido" id="apellido">
-           
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
-           
-            <form action="" method="get" enctype="multipart/form-data">
-                <label for="cv">Cargá tu CV</label>
-                <input type="file" name="cv" id="cv">
-            </form>
+        <div>
+            <form action="" method="get" enctype="application/x-www-form-urlencoded">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control color-form" name="nombre" id="nombre">    
+            
+                <label for="apellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" name="apellido" id="apellido">
+            
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email">
+            
+                <form action="" method="get" enctype="multipart/form-data">
+                    <label for="cv" class="form-label">Cargá tu CV</label>
+                    <input type="file" class="form-control" name="cv" id="cv">
+                </form>
 
-            <button>Enviar</button>
-        </form>
-    
+                <button>Enviar</button>
+            </form>
+        </div>    
     </main>
 
     

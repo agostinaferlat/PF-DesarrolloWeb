@@ -57,36 +57,45 @@
     </header>
 
     <main class="container">  <!--Contenido principal  -->
-        
-        <div>
-            <h3>Encontranos</h3>
-            <div>
-                <p>Juan Ramírez de Velazco 1458</p>
-                <p>4834-7473</p>
-                <p>cafefolium@gmail.com</p>
+        <div class="row justify-content-around">
+            <div class="col-md-5">
+                <h3 class="text-center fw-bold p-4">Encontranos</h3>
+                <div class="p-2 mb-1">
+                    <p class="text-center p-1">Juan Ramírez de Velazco 1458</p>
+                    <p class="text-center p-1">4834-7473</p>
+                    <p class="text-center p-1">cafefolium@gmail.com</p>
+                </div>
+                <div class="ratio ratio-4x3">
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.558443576828!2d-58.4447663!3d-34.590037699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5f3ede53087%3A0xbc2831a7c764855c!2sJuan%20Ram%C3%ADrez%20de%20Velasco%201458%2C%20C1414ARD%20CABA!5e0!3m2!1ses-419!2sar!4v1685824507793!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.558443576828!2d-58.4447663!3d-34.590037699999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5f3ede53087%3A0xbc2831a7c764855c!2sJuan%20Ram%C3%ADrez%20de%20Velasco%201458%2C%20C1414ARD%20CABA!5e0!3m2!1ses-419!2sar!4v1685824507793!5m2!1ses-419!2sar" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        
-        <div>
-            <h3>Contactanos</h3>
-            <form action="" method="get" enctype="application/x-www-form-urlencoded">
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre">    
-           
-                <label for="apellido">Apellido</label>
-                <input type="text" name="apellido" id="apellido">
-           
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-           
-                <label for="mensaje">Dejanos tu mensaje</label>   
-                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
-
-            </form>
-            <button>Enviar</button>
+            
+            <div class="col-md-5">
+                <h3 class="text-center fw-bold p-4">Contactanos</h3>
+                <div class="row justify-content-center p-2">
+                    <form action="" method="get" enctype="application/x-www-form-urlencoded">
+                        <div class="col">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" name="nombre" id="nombre">    
+                        </div>
+                        <div class="col">    
+                            <label for="apellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control" name="apellido" id="apellido">
+                        </div>
+                        <div class="col">    
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" name="email" id="email">
+                        </div>
+                        <div class="col">    
+                            <label for="mensaje" class="form-label">Dejanos tu mensaje</label>   
+                            <textarea class="form-control" name="mensaje" id="mensaje"></textarea>
+                        </div>
+                        <button class="p-1 mt-4">Enviar</button>
+                    </form>
+                </div>    
+            </div>    
         </div>    
-
     </main>
     
     <footer class="p-5 m-3"> 
