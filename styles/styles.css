@@ -1,0 +1,41 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* Estilos para el header*/
+.bg-color-nav{
+    background-color: #f3e4b6;
+}
+
+.size-lg-more{
+    width: 300px;
+}
+
+.size-sm{
+    width: 140px;
+}
+
+/* Estilos para el main - nuestro café */
+.justified{
+    text-align: justify;
+}
+
+.image-size{
+    width: 280px;
+    height: 320px;
+}
+
+.img-space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Estilos para el footer */
+
+.bg-color-green{
+    background-color: #E9EDC9;
+}
+
+.icon-link{
+    width: 20px;
+}
