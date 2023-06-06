@@ -8,10 +8,6 @@ body{
     background-size: cover;
 }
 
-main {
-    /* background-color: #F4F2F5; */
-    background-color: #F8F7F3;
-}
 /* Estilos para el header*/
 .bg-color-nav{
     background-color: #f3e4b6;
@@ -23,9 +19,14 @@ main {
 
 .size-sm{
     width: 140px;
-}
+} 
 
 /* Estilos para el main*/
+
+main {
+    /* background-color: #F4F2F5; */
+    background-color: #F8F7F3;
+}
 .justified{
     text-align: justify;
 }
@@ -41,16 +42,44 @@ main {
     justify-content: space-evenly;
 }
 
-/* .color-form{
-    background-color: #E9E5EC;
-    border: solid #A797B2;
-} */
-
 .image-size-t{
     height: 450px;
 }
 
-/* Estilos para el footer */
+.imagen-menu{
+    margin: 2px 5px 2px 5px;
+    padding: 5px 10px 5px 10px;
+    height: 400px;
+}
+
+.centered{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form-control:focus {
+    border-color: #779267;
+    box-shadow: 0 0 0 0.2rem rgba(119, 146, 103, 0.25);
+}
+
+button {background-color:#557136;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+  }
+
+button:hover {
+    background-color: #AAB89B;
+    color: black;
+  }
+
+  /* Estilos para el footer */
 
 .bg-color-green{
     background-color: #E9EDC9;
@@ -58,4 +87,11 @@ main {
 
 .icon-link{
     width: 20px;
+}
+
+.link-trabaja-f{
+    color: #484b4d;
+}
+.link-trabaja-f:hover{
+    color: #000000;
 }
