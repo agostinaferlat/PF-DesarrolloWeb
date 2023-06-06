@@ -58,6 +58,11 @@ main {
     justify-content: center;
 }
 
+.border-mine{
+    border-color: #628A27;
+    box-shadow: 0 0 0 0.2rem rgba(98, 138, 39, 0.25)
+}
+
 .form-control:focus {
     border-color: #779267;
     box-shadow: 0 0 0 0.2rem rgba(119, 146, 103, 0.25);
