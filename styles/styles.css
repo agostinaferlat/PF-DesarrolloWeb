@@ -18,38 +18,9 @@ body {
     width: 140px;
 } 
 
-.focus-in-contract {
-	-webkit-animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	        animation: focus-in-contract 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.animate__fadeIn{
+  animation-duration: 3s;
 }  
-
-@-webkit-keyframes focus-in-contract {
-    0% {
-      letter-spacing: 1em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-@keyframes focus-in-contract {
-    0% {
-      letter-spacing: 1em;
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
-  }
-  
 
 /* Estilos para el main*/
 
@@ -128,9 +99,43 @@ button:hover {
     color: black;
   }
 
+  /*Animaciones para títulos  */
+  .focus-in-contract {
+    -webkit-animation: focus-in-contract 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+            animation: focus-in-contract 0.9s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.8s both;
+  }  
+  
+@-webkit-keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes focus-in-contract {
+  0% {
+    letter-spacing: 1em;
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/* Animaciones títulos Trabajá con nosotros */
 .tracking-in-expand-fwd {
-	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	-webkit-animation: tracking-in-expand-fwd 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.9s both;
+	        animation: tracking-in-expand-fwd 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.9s both;
 }
 
  @-webkit-keyframes tracking-in-expand-fwd {
@@ -166,8 +171,8 @@ button:hover {
     }
   }
 .tracking-in-expand-fw {
-	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.7s both;
-	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 0.7s both;
+	-webkit-animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
+	        animation: tracking-in-expand-fwd 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) 2s both;
 }  
 
  @-webkit-keyframes tracking-in-expand-fw {
@@ -238,7 +243,8 @@ footer p{
     margin-bottom: 0px;
 }
 
-.consetra{
+/*consetra es contactanos, seguinos, y trabajá con nosotros, con se tra*/
+.consetra{ 
     display: flex;
     flex-direction: row;
     justify-content: center;

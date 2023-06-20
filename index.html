@@ -5,15 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Folium Café</title>
-    
-    <link rel="icon" href="./img/favicon-leaf2.png">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Folium Café - Home</title>
 
-    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="description" content="En Folium Café podés disfrutar de un delicioso café de especialidad y deleitarte con nuestra pastelería y panadería, sumergiéndote en la tranquilidad y belleza de nuestro jardín."> <!--Descripción página-->
+
+    <meta name="keywords" content="café, café de especialidad, jardín, aire libre, cafetería, pastelería, panadería, chacarita, villa crespo, folium, folium cafe, malvon, caba, capital"> <!--Keywords-->
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="./img/favicon-leaf2.png"> <!--Favicon-->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> <!--Link Bootstrap-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"> <!--Link librería Animate-->
+
+    <link rel="stylesheet" href="styles/styles.css"> <!--Link CSS-->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Links Google Font-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
 
@@ -28,13 +34,16 @@
 
                 <button class="navbar-toggler p-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                  </button>
+                </button> <!--Botón menú mobile y tablet-->
                 
-                <a class="navbar-brand d-none d-lg-block" href="#"><img class="size-lg-more" src="./img/logos folium cafe_Mesa de trabajo 1.png" alt="logo café">
-                </a>
-                <a class="navbar-brand d-lg-none m-0" href="#"><img class="size-sm" src="./img/logos folium cafe_Mesa de trabajo 1.png" alt="logo café">
-                </a>
+                <!--Logos Café Folium  -->
+                <a class="navbar-brand d-none d-lg-block animate__animated animate__fadeIn" href="#"><img class="size-lg-more" src="./img/logos folium cafe_Mesa de trabajo 1.png" alt="logo de Folium Café">
+                </a> <!--Logo para laptop y mayor-->
 
+                <a class="navbar-brand d-lg-none m-0" href="#"><img class="size-sm" src="./img/logos folium cafe_Mesa de trabajo 1.png" alt="logo de Folium Café"> 
+                </a><!--Logo mobile y tablet-->
+                
+                <!--Menú Nav para versión mobile y versión desktop-->
                 <div class="offcanvas offcanvas-start bg-color-green" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title fw-bold" id="offcanvasNavbarLabel">folium café.</h5>
@@ -42,7 +51,7 @@
                     </div>
 
                     <div class="offcanvas-body justify-content-md-end">
-                        <ul class="navbar-nav text-uppercase">
+                        <ul class="navbar-nav text-uppercase animate__animated animate__fadeInRight">
                             <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="./pages/nuestro-cafe.html">Nuestro Café</a></li>
                             <li class="nav-item"><a class="nav-link" href="./pages/menu.html">Menú</a></li>
@@ -50,6 +59,7 @@
                         </ul>
                     </div>
                 </div>
+                <!--Final Menú Nav-->
             </div>
         
         </nav>    
@@ -60,16 +70,15 @@
     <main class="container">  <!--Contenido principal  -->
 
         <div class="row justify-content-center">
-            <img class="img-fluid col-lg-10 mt-3" src="./img/huge-garden1.jpg" alt="imagen café jardín">
+            <img class="img-fluid col-lg-10 mt-3" src="./img/huge-garden1.jpg" alt="Foto del jardín del café, se ven varias mesas de madera con sillas, enredaderas en la pared y en las vigas del techo abierto, además de lámparas colgantes">
         </div>
         
         <div class="row justify-content-center">    
-            <h1 class="col-lg-10 text-center p-3 m-1">
+            <h1 class="col-lg-10 text-center p-3 m-1 fw-bold">
                 El mejor café en el jardín más lindo.
             </h1>
             <p class="col-lg-8 justified p-2">Con un encantador jardín, un ambiente cálido y una experiencia de café y pastelería excepcional, en Folium Café buscamos brindarte un espacio donde puedas relajarte y disfrutar de sabores deliciosos.</p>
-        </div>    
-        
+        </div>     
 
     </main>
 
@@ -79,9 +88,10 @@
         <div class="container-fluid">
         
             <div class="row align-items-center bg-color-green">
-               
+                <!--Footer versión desktop-->
                 <div class="col-lg-4 d-none d-lg-block consetra">
                     <h6 class="text-center fw-bold">Contacto</h6>
+
                     <p  class="text-center">Juan Ramírez de Velasco 1458</p>
                     <p  class="text-center">4834-7473</p>
                     <a class="nav-link link-trabaja-f centered-links" href="mailto:info@foliumcafe.com">info@foliumcafe.com</a>
@@ -89,7 +99,8 @@
     
                 <div class="col-lg-4 d-none d-lg-block consetra"> 
                     <h6 class="text-center fw-bold">Seguinos</h6>
-                    <div class="centered-links">
+
+                    <div class="centered-links"> <!--Redes sociales-->
                         <a href="https://www.instagram.com/" target="_blank"> 
                             <img class="icon-link" src="./img/instagram2.png" alt="icono instagram">
                         </a>
@@ -98,21 +109,23 @@
                             <img class="icon-link" src="./img/facebook3.png" alt="icono facebook">     
                         </a>
                     </div>
-        
+
                 </div>
     
                 <div class="col-lg-4 d-none d-lg-block consetra">
                     <h6 class="text-center fw-bold">Trabajá con nosotros</h6>
+
                     <p class="text-center">Escribinos a</p>
                     <a class="nav-link link-trabaja-f centered-links" href="mailto:rrhh@foliumcafe.com">rrhh@foliumcafe.com</a> 
                     <div class="centered-links">
                         <a class="nav-link link-trabaja-f" href="./pages/trabaja-con-nosotros.html">Llená el formulario</a>
-                    </div>
+                    </div><!--Link a formulario-->
                 </div>
+                <!--Final footer versión desktop-->
 
-
+                <!--Footer versión mobile y tablet-->
                 <div class="col-md-10 offset-md-1 col-sm-12 d-lg-none">
-                    <div class="centered-links">
+                    <div class="centered-links"> <!--Redes sociales-->
                         <a href="https://www.instagram.com/" target="_blank"> 
                             <img class="icon-link" src="./img/instagram2.png" alt="icono instagram">
                         </a>
@@ -123,9 +136,9 @@
                     </div>
                     <div class="centered-links">
                         <a class="nav-link link-trabaja-f" href="./pages/trabaja-con-nosotros.html">Trabajá con nosotros</a>
-                    </div>
+                    </div><!--Link a formulario-->
                 </div>
-
+                <!--Final footer versión mobile y tablet-->
             </div> 
 
         </div>
