@@ -1,0 +1,20 @@
+.form-control:focus {
+    border-color: #779267;
+    box-shadow: 0 0 0 0.2rem rgba(119, 146, 103, 0.25);
+}
+
+.button-forms {
+    background-color: $color-button;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    transition-duration: 0.4s;
+    &:hover{
+        background-color: $color-button-hover;
+        color: black;
+    }
+}

@@ -1,0 +1,10 @@
+// @mixin flex($justify-content) {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: $justify-content;
+// }
+
+@mixin size-img($width, $height) {
+    width: $width;
+    height: $height;
+}

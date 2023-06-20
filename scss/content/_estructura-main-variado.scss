@@ -1,0 +1,16 @@
+main {
+    background-color: $color-main;
+}
+
+.justified{
+    text-align: justify;
+}
+
+li p{
+    margin-bottom: 0px;
+}
+
+.border-mine{
+    border-color: $color-borde-menu;
+    box-shadow: 0 0 0 0.2rem $color-shadow;
+}    

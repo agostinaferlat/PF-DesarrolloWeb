@@ -1,0 +1,38 @@
+.bg-color-green{
+    background-color: $color-footer
+}
+
+.icon-link{
+    width: 20px;
+    margin-bottom: 8px;
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.link-trabaja-f{
+    color: #000000;
+    &:hover{
+        color: $color-trabaja-hover;
+    }
+}
+
+.centered-links{
+    @extend .centered;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+footer{ 
+    p{
+    margin-bottom: 0px;
+    }
+}
+
+/*consetra es contactanos, seguinos, y trabajá con nosotros, con se tra*/
+.consetra{ 
+    @extend .centered;
+    justify-content: center;
+    align-self: start;
+    text-align: start;
+}

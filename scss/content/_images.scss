@@ -1,0 +1,38 @@
+.centered{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-size{
+    @include size-img(280px, 320px)
+}
+
+.image-size-xxl{
+    @include size-img(336px, 384px) 
+}
+
+.img-space{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.image-size-t{
+    height: 450px;
+}
+
+.imagen-menu{
+    margin: 2px 5px 2px 5px;
+    padding: 5px 10px 5px 10px;
+    height: 400px;
+}
+
+.image-nuestrocafe{
+    transition: transform .2s;
+    margin: 0;
+    &:hover{
+        transform: scale(1.3);
+    }
+}
+
