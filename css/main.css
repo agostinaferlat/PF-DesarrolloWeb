@@ -240,5 +240,17 @@ footer p {
     opacity: 1;
   }
 }
+@media (any-hover: hover) {
+  .image-nuestrocafe:hover {
+    transform: scale(1.3);
+  }
+  .button-forms:hover {
+    background-color: #AAB89B;
+    color: black;
+  }
+  .link-trabaja-f:hover {
+    color: #bb6b36;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
